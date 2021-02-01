@@ -8,18 +8,18 @@ namespace ClassMetotDemo
     {
         public void Add(Musteri musteri)
         {
-            Console.WriteLine(musteri.Id +" "+ musteri.Ad +" "+ musteri.Soyad + " "+"  eklendi.");
+            Console.WriteLine(musteri.Id +"\n "+ musteri.Ad +"\n "+ musteri.Soyad + "\n "+"  eklendi.");
 
         }
 
         public void Delete(Musteri musteri)
         {
-            Console.WriteLine(musteri.Id +" "+ musteri.Ad + " "+musteri.Soyad +" "+"  silindi.");
+            Console.WriteLine(musteri.Id +"\n"+ musteri.Ad +"\n"+ " "+musteri.Soyad +" \n"+"  silindi.");
 
         }
         public void Update(Musteri musteri)
         {
-            Console.WriteLine(musteri.Id +" "+ musteri.Ad +" "+ musteri.Soyad +" "+"  güncellendi.");
+            Console.WriteLine(musteri.Id +"\n "+ musteri.Ad +"\n "+ musteri.Soyad +" \n"+"  güncellendi.");
         }
 
     }
